@@ -8,7 +8,7 @@ Make sure the version are > 2.0  Otherwise it give an compliation error (Class i
 
 Export the Project as a JAR 
 
-After that follow these steps.
+After that follow these steps.<br>
 <b>NOTE: Make sure that your hadoop is up and running.</b>
 <code>
 1. <code>hdfs dfs -mkdir "Input Directory"</code>
@@ -21,3 +21,5 @@ After completion of process you can find 4 different folders in the output direc
   iter00,iter01,iter02,result
   
  These contains result after different iteration and the last one contains the result in sorted order.
+
+<b>NOTE: You can change the dmping factor and no of iterations in PageRank.java file</b>
